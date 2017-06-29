@@ -1,6 +1,6 @@
 /*
  ============================================================================
- Name        : ProgettoC.c
+ Name        : Progetto.c
  Author      : 
  Version     :
  Copyright   : Your copyright notice
