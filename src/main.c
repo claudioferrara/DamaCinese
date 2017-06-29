@@ -10,8 +10,15 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+#include "menu.h"
+#include "funzioni.h"
+#include "globali.h"
+
 
 int main(void) {
-	puts("!!!Hello World!!!"); /* prints !!!Hello World!!! */
-	return EXIT_SUCCESS;
+
+	menu();
+
+	system("PAUSE");
+	return 0;
 }
