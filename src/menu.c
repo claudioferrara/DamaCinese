@@ -8,6 +8,7 @@
 #include  <stdio.h>
 #include <stdlib.h>
 
+
 void menu() {
 
 	int comando;
@@ -31,7 +32,7 @@ void menu() {
 		if (comando == 1) { /* nuovapartita(); */ }
 		if (comando == 2) { /* caricapartita(); */ }
 		if (comando == 3) { /* impostazioni(); */}
-		if (comando == 4) { /* regolamento(); */}
+		if (comando == 4) { regolamento(); }
 		if (comando == 5) { esecuzione = 0; }
 	}
 
